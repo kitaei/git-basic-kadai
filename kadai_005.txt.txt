@@ -1,0 +1,81 @@
+PS C:\Users\eisuk\git_challenge> git add .
+PS C:\Users\eisuk\git_challenge> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\eisuk\git_challenge> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+PS C:\Users\eisuk\git_challenge> git commit -m
+error: switch `m' requires a value
+PS C:\Users\eisuk\git_challenge> git commit -m "Hello,world!と追加”
+[main (root-commit) 773b5b2] Hello,world!縺ｨ霑ｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\eisuk\git_challenge> git add .
+PS C:\Users\eisuk\git_challenge> git commit -m "こんにちは、世界と追加”
+[main a665162] 縺薙ｓ縺ｫ縺｡縺ｯ縲∽ｸ也阜縺ｨ霑ｽ蜉
+ 1 file changed, 2 insertions(+)
+PS C:\Users\eisuk\git_challenge> git log
+commit a665162507959a02342e96cab6477f3cc8ec7b23 (HEAD -> main)
+Author: kitaei <eisuke.k68@gmail.com>
+Date:   Wed May 22 19:23:30 2024 +0900
+
+    こんにちは、世界と追加
+
+commit 773b5b24ade91bea2044e537ea16c74a92f8898d
+Author: kitaei <eisuke.k68@gmail.com>
+Date:   Wed May 22 19:21:59 2024 +0900
+
+    Hello,world!と追加
+(END)...skipping...
+commit a665162507959a02342e96cab6477f3cc8ec7b23 (HEAD -> main)
+Author: kitaei <eisuke.k68@gmail.com>
+Date:   Wed May 22 19:23:30 2024 +0900
+
+    こんにちは、世界と追加
+
+commit 773b5b24ade91bea2044e537ea16c74a92f8898d
+Author: kitaei <eisuke.k68@gmail.com>
+Date:   Wed May 22 19:21:59 2024 +0900
+
+    Hello,world!と追加
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
